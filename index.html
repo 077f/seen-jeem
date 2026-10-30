@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0a24">
+  <meta name="description" content="سين جيم — لعبة مسابقات ثقافية للفعاليات والمدارس والتجمعات العائلية">
+  <title>سين جيم</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="stylesheet" href="css/play.css">
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">تخطَّ إلى المحتوى</a>
+  <div id="app" class="app" tabindex="-1"></div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <noscript>
+    <p style="padding:24px;text-align:center">لعبة سين جيم تحتاج إلى تفعيل JavaScript في المتصفح.</p>
+  </noscript>
+
+  <!-- الترتيب مهم: الأساس ← البيانات ← الواجهة ← الشاشات ← التشغيل -->
+  <script src="js/core/ns.js"></script>
+  <script src="js/core/utils.js"></script>
+  <script src="js/core/validation.js"></script>
+  <script src="js/game/engine.js"></script>
+  <script src="js/data/db.js"></script>
+  <script src="js/data/images.js"></script>
+  <script src="js/data/repo.js"></script>
+  <script src="js/data/auth.js"></script>
+  <script src="js/data/transfer.js"></script>
+  <script src="js/data/seed.js"></script>
+  <script src="js/ui/dom.js"></script>
+  <script src="js/ui/shortcuts.js"></script>
+  <script src="js/ui/dialogs.js"></script>
+  <script src="js/ui/sound.js"></script>
+  <script src="js/ui/effects.js"></script>
+  <script src="js/ui/image-tools.js"></script>
+  <script src="js/ui/game-parts.js"></script>
+  <script src="js/core/router.js"></script>
+  <script src="js/views/common.js"></script>
+  <script src="js/views/home.js"></script>
+  <script src="js/views/login.js"></script>
+  <script src="js/views/admin-dashboard.js"></script>
+  <script src="js/views/question-editor.js"></script>
+  <script src="js/views/category-editor.js"></script>
+  <script src="js/views/category-preview.js"></script>
+  <script src="js/views/settings.js"></script>
+  <script src="js/views/match-setup.js"></script>
+  <script src="js/views/question-screen.js"></script>
+  <script src="js/views/game-board.js"></script>
+  <script src="js/views/results.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

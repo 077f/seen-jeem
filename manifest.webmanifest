@@ -1,0 +1,16 @@
+{
+  "name": "سين جيم",
+  "short_name": "سين جيم",
+  "description": "لعبة مسابقات ثقافية للفعاليات والمدارس والتجمعات العائلية",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#08071c",
+  "theme_color": "#0b0a24",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
